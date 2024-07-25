@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resultats BTS </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Consulter vos Resultats</h1>
+
+        <div class="formulaire">
+            <input type="text" id="matricule" placeholder="Entrez votre matricule" required>
+            <button onclick="resultat()" id="button">Consulter</button>
+        </div>
+
+        <div id="loader" class="loaderr"></div>
+        <div id="loader2" class="loaderr2">Tu aimerais bien avoir le BTS hein <br>ah ah <br> il aimerait bien le mec</div>
+        <div id="result" class="carte">
+        </div>
+        <div id="message_derreur" class="error">Entre ton matricule labas sapac...</div>
+        <a href="index.html" id="again">Consulter again</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
